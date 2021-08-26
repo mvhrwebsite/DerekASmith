@@ -112,6 +112,9 @@ a {
     padding: 0.5%;
 
 }
+    .text-bio{
+      font-size: 1rem;
+    }
 /* footer */
 #footer {
   background-color: #244463;
