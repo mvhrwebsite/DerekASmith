@@ -99,7 +99,19 @@ a {
   text-align: center;
   font-weight: 200;
 }
+@media (max-width: 1000px) {
+  .wrapper-bio {
+    padding: 0.5%;
 
+
+  }
+  .text-block{
+    bottom: 1%;
+    right: 1%;
+    left: 1%;
+    padding: 0.5%;
+
+}
 /* footer */
 #footer {
   background-color: #244463;
