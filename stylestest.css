@@ -99,22 +99,7 @@ a {
   text-align: center;
   font-weight: 200;
 }
-@media (max-width: 1000px) {
-  .wrapper-bio {
-    padding: 0.5%;
 
-
-  }
-  .text-block{
-    bottom: 1%;
-    right: 1%;
-    left: 1%;
-    padding: 0.5%;
-
-}
-    .text-bio{
-      font-size: 1rem;
-    }
 /* footer */
 #footer {
   background-color: #244463;
@@ -129,3 +114,26 @@ a {
   padding: 2% 2%;
   font-size: 2rem;
 }
+  
+  
+  @media (max-width: 1000px) {
+  .wrapper-bio {
+    padding: 0.5%;
+
+
+  }
+  .text-block{
+    bottom: 1%;
+    right: 1%;
+    left: 1%;
+    padding: 0.5%;
+    }
+    .text-bio{
+      font-size: 1rem;
+    }
+
+    .wrapper-navbar{
+      position: static;
+      
+    }
+
