@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <!-- CSS stylesheet -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <link rel="stylesheet" href="stylestest.css">
+  <link rel="stylesheet" href="styles.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/8529bf307a.js" crossorigin="anonymous"></script>
   <!-- Bootstrap Scripts -->
@@ -55,7 +55,7 @@
               <a class="nav-link" href="#Video">Video</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Contact-me.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
 
             <li class="nav-icon">
@@ -114,8 +114,9 @@
 
       <div class="iframe-container">
 
-        <iframe width="900" height="480" src="https://www.youtube.com/embed/i2uSSQ4gF34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        <iframe width="900" height="480" src="https://www.youtube.com/embed/b7L_Ms8neH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
+
 
       </div>
     </div>
@@ -124,21 +125,16 @@
   <!-- music -->
   <div class="container">
     <div class="wrapper-music" id="Music">
-      <div class="row">
-
-
-        <div class="col-lg-6">
-          <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4120108428/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/track=1674317392/transparent=true/" seamless><a
-              href="https://derekalexandersmith.bandcamp.com/album/the-wheel-saint-peter">The Wheel / Saint Peter by Derek Alexander Smith</a></iframe>
-        </div>
-
-        <div class="col-lg-6">
-          <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4120108428/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/track=3353068798/transparent=true/" seamless><a
-              href="https://derekalexandersmith.bandcamp.com/album/the-wheel-saint-peter">The Wheel / Saint Peter by Derek Alexander Smith</a></iframe>
-        </div>
-      </div>
-    </div>
+  <h3 class="big-heading">Listen to My Music on Your Favorite Platform.</h3>
+  <div class="iframe">
+  <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=4120108428/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/" seamless><a href="https://derekalexandersmith.bandcamp.com/album/the-wheel-saint-peter">The Wheel / Saint Peter by Derek Alexander Smith</a></iframe>
   </div>
+  <div class="d-grid gap-2 d-md-block">
+    <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-youtube"></i> Youtube</button>
+    <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-spotify"></i> Spotify</button>
+  </div>
+</div>
+</div>
 
   <!-- Bio -->
   <div class="container">
@@ -146,7 +142,7 @@
 
       <img class="image-bio" src="bgimagebio.png" alt="bio-image" style="width:100%;">
 
-      <div class="text-block" id="text-bio">
+      <div class="text-block-bio" id="text-bio">
         <p class="text-bio">
           My name is Derek Alexander Smith, an indie songwriter and musician from Brooklyn, NY.
           The music I make typically hovers in the crossroads of rock, folk, and country -- but with a lot of varied influences. Some of my favorite artists are
@@ -161,7 +157,58 @@
 
 
 
-  <!-- contact -->
+  <!-- news -->
+
+  <div class="container">
+    <div class="wrapper-news" id="News">
+        <h3>News</h3>
+        <p>Read more about me.</p>
+
+
+        <div class="row">
+
+
+      <div class="news-column col-md-6">
+        <div class="card">
+          <div class="card-body">
+          <img width="100" height="360" class="News-image" src="IMG-20201019-WA0007.jpg" alt="news-image" style="width:100%;">
+            <div class="text-block">
+            <button class="btn btn-lg btn-outline-dark" type="button">Brooklyn Indie Folk & Rock Songwriter Derek Alexander Smith Releases New Single ‘The Wheel’ In Anticipation Of Upcoming EP</button>
+          </div>
+          </div>
+        </div>
+        </div>
+
+      <div class="news-column  col-md-6">
+        <div class="card">
+          <div class="card-body">
+        <img width="100" height="360" class="News-image" src="news2.png" alt="news-image" style="width:100%;">
+          <div class="text-block">
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Derek Alexander Smith drops new 2 song EP “The Wheel/Saint Peter”</button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <div class="news-column">
+        <div class="card">
+          <div class="card-body">
+            <img width="100" height="360" class="News-image" src="music.png" alt="news-image" style="width:100%;">
+              <div class="text-block">
+                <button class="btn btn-lg btn-block btn-outline-dark" type="button">Derek Alexander Smith jams out on double single release, "The Wheel" and "Saint Peter"</button>
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+      </div>
+    </div>
+
 
 
   <!-- Footer -->
