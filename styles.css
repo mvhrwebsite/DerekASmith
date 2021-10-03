@@ -42,11 +42,14 @@ a {
 
 /* music */
 .wrapper-music{
-  background-color: #244463;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 5% 5%;
-  text-align: left;
+  padding: 10% 0 10% 0;
+  text-align: center;
+  color: #fff;
 
+}
+
+.iframe{
+  padding: 6% 0 6% 0;
 }
 
 
@@ -83,7 +86,7 @@ a {
 }
 
 
-.text-block {
+.text-block-bio {
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
   bottom: 21%;
@@ -100,6 +103,26 @@ a {
   font-weight: 200;
 }
 
+/* news */
+#News {
+  padding: 10% 0 6% 0;
+  color: #fff;
+
+}
+.text-block{
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  left: 2%;
+  color: white;
+  padding: 3% 3% 3% 2%;
+}
+
+.news-column {
+  padding: 3% 2%;
+}
+
+
 /* footer */
 #footer {
   background-color: #244463;
@@ -114,15 +137,15 @@ a {
   padding: 2% 2%;
   font-size: 2rem;
 }
-  
-  
-  @media (max-width: 1000px) {
+
+
+@media (max-width: 1000px) {
   .wrapper-bio {
     padding: 0.5%;
 
 
   }
-  .text-block{
+  .text-block-bio{
     bottom: 1%;
     right: 1%;
     left: 1%;
@@ -134,6 +157,91 @@ a {
 
     .wrapper-navbar{
       position: static;
-      
+
     }
 
+/* contact */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.image-contact{
+  width: 100%;
+  padding-right: 5%;
+}
+
+
+
+.column{
+  float: left;
+  width: 50%;
+}
+
+.wrapper-contact{
+  background: white;
+ box-sizing: border-box;
+  padding: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h1{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #486255;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+.btn{
+  width: 250px;
+  background: #486255;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder{
+  font-family: 'roboto';
+} */
